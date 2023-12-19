@@ -1,0 +1,105 @@
+2023-07-28T10:48:41.862Z [INFO]: # Cloning repository: git@github.com:MapleSage/ai-chatbot.git
+2023-07-28T10:48:42.895Z [INFO]: 
+2023-07-28T10:48:42.897Z [INFO]: Cloning into 'ai-chatbot'...
+2023-07-28T10:48:42.898Z [INFO]: # Checking for Git submodules at: /codebuild/output/src1188950386/src/ai-chatbot/.gitmodules
+2023-07-28T10:48:42.906Z [INFO]: # Retrieving environment cache...
+2023-07-28T10:48:42.938Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+2023-07-28T10:48:42.938Z [INFO]: ---- Setting Up SSM Secrets ----
+2023-07-28T10:48:42.938Z [INFO]: SSM params {"Path":"/amplify/d3spdpxaxo49wv/dev/","WithDecryption":true}
+2023-07-28T10:49:00.711Z [INFO]: # Patching NPM package '@aws-amplify/cli' from 10.5.2 to 12.2.2...
+2023-07-28T10:49:17.095Z [INFO]: # Done patching NPM package '@aws-amplify/cli' to version 12.2.2
+2023-07-28T10:49:17.183Z [INFO]: Setting NEXT_PRIVATE_STANDALONE=true to produce .next/standalone directory
+2023-07-28T10:49:17.186Z [INFO]: # Retrieving cache...
+2023-07-28T10:49:17.244Z [INFO]: # Retrieved cache
+2023-07-28T10:49:21.420Z [INFO]: ## Starting Backend Build
+                                 # Starting phase: build
+2023-07-28T10:49:23.647Z [INFO]: [0mAmplify AppID found: d3spdpxaxo49wv. Amplify App name is: aichatbot[0m
+2023-07-28T10:49:23.686Z [INFO]: [0mBackend environment dev found in Amplify Console app: aichatbot[0m
+2023-07-28T10:49:24.146Z [WARNING]: - Fetching updates to backend environment: dev from the cloud.
+2023-07-28T10:49:24.579Z [WARNING]: ✔ Successfully pulled backend environment dev from the cloud.
+2023-07-28T10:49:24.635Z [INFO]: ✅
+2023-07-28T10:49:26.737Z [INFO]: [33mNote: It is recommended to run this command from the root of your app directory[39m
+2023-07-28T10:49:26.923Z [WARNING]: - Initializing your environment: dev
+2023-07-28T10:49:27.273Z [WARNING]: ✔ Initialized provider successfully.
+2023-07-28T10:49:27.990Z [INFO]: [0mNo AppSync API configured. Please add an API[0m
+2023-07-28T10:49:33.773Z [INFO]: 
+2023-07-28T10:49:33.777Z [INFO]: UPDATE_IN_PROGRESS                  amplify-aichatbot-dev-153634 AWS::CloudFormation::Stack Fri Jul 28 2023 10:49:28 GMT+0000 (Coordinated Universal Time) User Initiated
+                                 UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-aichatbot-dev-153634 AWS::CloudFormation::Stack Fri Jul 28 2023 10:49:32 GMT+0000 (Coordinated Universal Time)
+                                 UPDATE_COMPLETE                     amplify-aichatbot-dev-153634 AWS::CloudFormation::Stack Fri Jul 28 2023 10:49:33 GMT+0000 (Coordinated Universal Time)
+2023-07-28T10:49:58.849Z [INFO]: [K
+2023-07-28T10:49:59.059Z [INFO]: [K
+2023-07-28T10:49:59.078Z [WARNING]: - Uploading files.
+2023-07-28T10:49:59.109Z [INFO]: [1A
+2023-07-28T10:49:59.109Z [INFO]: [K
+2023-07-28T10:49:59.159Z [INFO]: [1A
+2023-07-28T10:49:59.160Z [INFO]: [K
+2023-07-28T10:49:59.210Z [INFO]: [1A
+2023-07-28T10:49:59.210Z [INFO]: [K
+2023-07-28T10:49:59.268Z [INFO]: [1A
+2023-07-28T10:49:59.268Z [INFO]: [K
+2023-07-28T10:49:59.318Z [INFO]: [1A[K
+2023-07-28T10:49:59.350Z [INFO]: [1A[K
+2023-07-28T10:49:59.351Z [WARNING]: - Uploading files.
+2023-07-28T10:49:59.435Z [WARNING]: - Uploading files.
+2023-07-28T10:49:59.510Z [INFO]: 
+2023-07-28T10:49:59.511Z [INFO]: 
+2023-07-28T10:49:59.620Z [INFO]: ✅ Initialized your environment successfully.
+2023-07-28T10:49:59.620Z [INFO]: [32mYour project has been successfully initialized and connected to the cloud![39m
+                                 [32mSome next steps:[39m
+                                 [0m"amplify status" will show you what you've added already and if it's locally configured or deployed[0m
+                                 [0m"amplify add <category>" will allow you to add features like user login or a backend API[0m
+                                 [0m"amplify push" will build all your local backend resources and provision it in the cloud[0m
+                                 [0m"amplify console" to open the Amplify Console and view your project status[0m
+                                 [0m"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud[0m
+                                 [32mPro tip:[39m
+                                 [0mTry "amplify add api" to create a backend API and then "amplify push" to deploy everything[0m
+2023-07-28T10:49:59.621Z [INFO]: ⚠️ The maximum number of apps that you can create with Amplify in this region has likely been reached:
+                                 For more information on Amplify Service Quotas, see:
+                                 https://docs.aws.amazon.com/general/latest/gr/amplify.html#service-quotas-amplify
+2023-07-28T10:50:01.023Z [INFO]: # Completed phase: build
+                                 ## Completed Backend Build
+2023-07-28T10:50:01.025Z [INFO]: ## Starting Frontend Build
+                                 # Starting phase: preBuild
+2023-07-28T10:50:01.026Z [INFO]: # Executing command: npm ci
+2023-07-28T10:50:02.059Z [WARNING]: npm
+2023-07-28T10:50:02.061Z [WARNING]: ERR! code ERESOLVE
+2023-07-28T10:50:02.061Z [WARNING]: npm
+2023-07-28T10:50:02.061Z [WARNING]: ERR! ERESOLVE could not resolve
+                                    npm ERR!
+2023-07-28T10:50:02.061Z [WARNING]: 
+                                    npm ERR! While resolving: class-variance-authority@0.4.0
+                                    npm
+2023-07-28T10:50:02.061Z [WARNING]: ERR! Found: typescript@5.1.6
+                                    npm ERR! node_modules/typescript
+                                    npm ERR!   dev typescript@"^5.1.3" from the root project
+                                    npm ERR!   peerOptional typescript@">=3.3.1" from eslint-config-next@13.4.7-canary.1
+                                    npm ERR!   node_modules/eslint-config-next
+                                    npm ERR!     dev eslint-config-next@"13.4.7-canary.1" from the root project
+                                    npm
+2023-07-28T10:50:02.062Z [WARNING]: ERR!   1 more (tsutils)
+                                    npm ERR!
+                                    npm ERR! Could not resolve dependency:
+                                    npm ERR! peerOptional typescript@">= 4.5.5 < 5" from class-variance-authority@0.4.0
+                                    npm ERR! node_modules/class-variance-authority
+                                    npm ERR!   class-variance-authority@"^0.4.0" from the root project
+                                    npm ERR!
+                                    npm ERR! Conflicting peer dependency: typescript@4.9.5
+                                    npm ERR! node_modules/typescript
+                                    npm ERR!   peerOptional typescript@">= 4.5.5 < 5" from class-variance-authority@0.4.0
+                                    npm ERR!   node_modules/class-variance-authority
+                                    npm ERR!     class-variance-authority@"^0.4.0" from the root project
+2023-07-28T10:50:02.062Z [WARNING]: npm ERR!
+                                    npm ERR! Fix the upstream dependency conflict, or retry
+                                    npm ERR! this command with --force, or --legacy-peer-deps
+                                    npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+                                    npm ERR!
+                                    npm ERR! See /root/.npm/eresolve-report.txt for a full report.
+2023-07-28T10:50:02.063Z [WARNING]: 
+2023-07-28T10:50:02.063Z [WARNING]: npm ERR! A complete log of this run can be found in:
+                                    npm ERR!     /root/.npm/_logs/2023-07-28T10_50_01_248Z-debug-0.log
+2023-07-28T10:50:02.070Z [ERROR]: !!! Build failed
+2023-07-28T10:50:02.070Z [INFO]: Please check the supported SSR features to find if your build failure is related to an unsupported feature: https://docs.aws.amazon.com/amplify/latest/userguide/ssr-Amplify-support.html#supported-unsupported-features. You may also find this troubleshooting guide useful: https://docs.aws.amazon.com/amplify/latest/userguide/troubleshooting-ssr-deployment.html
+2023-07-28T10:50:02.070Z [ERROR]: !!! Non-Zero Exit Code detected
+2023-07-28T10:50:02.070Z [INFO]: # Starting environment caching...
+2023-07-28T10:50:02.071Z [INFO]: # Environment caching completed
+Terminating logging...
